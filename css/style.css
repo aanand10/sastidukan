@@ -254,7 +254,7 @@ aside .amazon_side_ad {
   }
   .container .main_container .product_container .product_card {
     width: 47%;
-    height: 250px;
+    height: auto;
     padding: 0;
     margin: 5px;
   }
