@@ -264,11 +264,11 @@ aside .amazon_side_ad {
     /* background-color: brown; */
     border-radius: 23px;
   }
-  .container .main_container .product_card button {
+  .container .main_container .product_card a button {
     height: 50px;
-    font-size: 12px;
+    font-size: 14px;
   }
-  .container .main_container .product_card button span img {
+  .container .main_container .product_card a button span img {
     height: 13px;
     margin: 0;
     padding: 0;
