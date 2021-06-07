@@ -8,6 +8,10 @@
   scroll-behavior: smooth;
 }
 
+a {
+  color: transparent;
+}
+
 /* !!nav bar styling  */
 nav {
   display: flex;
@@ -25,6 +29,7 @@ nav .logo {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
+  margin-left: -58px;
 }
 nav ul {
   display: flex;
@@ -131,7 +136,7 @@ input[type="checkbox"] {
   flex-direction: column;
   margin: 10px;
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgb(255 255 255 / 20%);
   backdrop-filter: blur(13.5px);
   -webkit-backdrop-filter: blur(13.5px);
   border-radius: 15px;
@@ -179,6 +184,7 @@ input[type="checkbox"] {
 .container .main_container .product_card a button span img {
   height: 20px;
   margin: 0;
+  margin-top: 7px;
   padding: 0;
   vertical-align: middle;
 }
@@ -200,6 +206,10 @@ aside .amazon_side_ad {
   }
   #click:checked ~ .menu-btn i:before {
     content: "\f00d";
+  }
+  nav .logo {
+    margin-left: -35px;
+    font-size: 32px;
   }
   nav ul {
     position: fixed;
