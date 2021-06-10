@@ -77,6 +77,10 @@ input[type="checkbox"] {
   text-align: center;
   margin: auto;
 }
+.offer_header .offer_box img {
+  height: auto;
+  width: 100%;
+}
 .container {
   /* border: 1px solid black; */
 
@@ -215,7 +219,7 @@ aside .no2 {
   margin-bottom: 50%;
 }
 .bottom {
-  margin-top: 5px;
+  /* margin-top: 5px; */
   background: #e1eec3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -289,8 +293,8 @@ aside .no2 {
     color: cyan;
   }
   .offer_header {
-    padding-left: 0;
-    margin-left: 0;
+    padding: 0;
+    margin-top: 5px;
   }
   .amazon_side_ad {
     display: none;
