@@ -243,6 +243,32 @@ aside .no2 {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+footer {
+  /* margin-top: 15px; */
+}
+footer .footer_text {
+  background-color: gray;
+  color: white;
+  height: auto;
+  padding: 10px 0;
+  width: 100%;
+  /* display: ; */
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer_text p {
+  /* display: block; */
+  /* text-align: center; */
+  /* margin: auto; */
+  /* padding-top: 7px; */
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 15px; */
+  /* margin-bottom: 50%; */
+}
 @media (max-width: 1000px) {
   nav {
     padding: 0 40px 0 50px;
