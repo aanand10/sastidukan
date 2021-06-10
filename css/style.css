@@ -245,29 +245,22 @@ aside .no2 {
 }
 footer {
   /* margin-top: 15px; */
-}
-footer .footer_text {
   background-color: gray;
   color: white;
-  height: auto;
-  padding: 10px 0;
-  width: 100%;
-  /* display: ; */
-  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+footer .footer_text {
+  height: auto;
 }
 
 footer .footer_text p {
-  /* display: block; */
-  /* text-align: center; */
-  /* margin: auto; */
-  /* padding-top: 7px; */
-  align-items: center;
-  justify-content: center;
-  /* margin-top: 15px; */
-  /* margin-bottom: 50%; */
+  display: block;
+  font-size: 13px;
+  margin: auto;
 }
 @media (max-width: 1000px) {
   nav {
