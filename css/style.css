@@ -320,6 +320,10 @@ aside .no2 {
     padding: 0;
     margin: 5px;
   }
+  .container .main_container .product_container .product_card:nth-child(5) {
+    width: auto;
+    height: auto;
+  }
   .container .main_container .product_card .Product_image {
     height: 150px;
     padding: 7px 10px;
