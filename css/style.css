@@ -255,6 +255,7 @@ footer {
 }
 footer .footer_text {
   height: auto;
+  padding: 0 7px;
 }
 
 footer .footer_text p {
