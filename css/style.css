@@ -446,5 +446,23 @@ footer .footer_text p {
   .bottom aside {
     display: none;
   }
-  /* .bottom .categories .categories_section; */
+  .bottom .categories .categories_section {
+    margin: 0;
+  }
+  .bottom .categories .categories_section .cat_card {
+    width: 150px;
+    height: 150px;
+    margin: 7px 5px;
+    padding: 0;
+  }
+  .bottom .categories .categories_section .cat_card:nth-child(even) {
+    top: 90px;
+  }
+  .bottom .categories .categories_section .cat_card:last-child {
+    left: -80px;
+  }
+  .bottom .categories .categories_section .cat_card a img {
+    width: 150px;
+    height: 150px;
+  }
 }
