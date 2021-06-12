@@ -438,5 +438,8 @@ footer .footer_text p {
     margin-right: auto;
     padding: 0;
   }
+  .bottom aside {
+    display: none;
+  }
   /* .bottom .categories .categories_section; */
 }
