@@ -308,6 +308,7 @@ footer {
   justify-content: center;
   width: 100%;
   padding: 10px 0;
+  text-align: center;
 }
 footer .footer_text {
   height: auto;
@@ -428,6 +429,10 @@ footer .footer_text p {
     margin-top: 6px;
     padding: 0;
     vertical-align: middle;
+  }
+
+  .container .main_container .product_container .ad_card {
+    display: none;
   }
 
   .container .main_container .heading h1 {
