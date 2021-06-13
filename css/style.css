@@ -459,8 +459,8 @@ footer .footer_text p {
     justify-content: space-evenly;
   }
   .bottom .categories .categories_section .cat_card {
-    width: 125px;
-    height: 125px;
+    width: 130px;
+    height: 130px;
     /* margin: 7px 5px; */
     padding: 0;
   }
@@ -471,7 +471,7 @@ footer .footer_text p {
     left: -80px;
   }
   .bottom .categories .categories_section .cat_card a img {
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
   }
 }
