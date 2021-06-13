@@ -7,6 +7,7 @@
     <title>Sasti Dukan</title>
     <!-- ?? styling sheets  -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <!-- <link
       rel="stylesheet"
       media="screen and (max-width: 720px)"
@@ -19,7 +20,7 @@
     />
   </head>
   <body>
-    <header>
+    <!-- <header>
       <nav>
         <div class="logo">Sasti Dukan</div>
         <input type="checkbox" id="click" />
@@ -36,6 +37,59 @@
           <li><a href="#categories">Categories</a></li>
         </ul>
       </nav>
+    </header> -->
+    <header class="header">
+      <a href="#" class="header__logo">Sasti Dukan</a>
+
+      <ion-icon
+        name="menu-outline"
+        class="header__toggle"
+        id="nav-toggle"
+      ></ion-icon>
+
+      <nav class="nav" id="nav-menu">
+        <div class="nav__content bd-grid">
+          <ion-icon
+            name="close-outline"
+            class="nav__close"
+            id="nav-close"
+          ></ion-icon>
+
+          <div class="nav__perfil">
+            <div class="nav__img">
+              <img src="assets/img/perfil.png" alt="" />
+            </div>
+
+            <div>
+              <a href="#" class="nav__name">Sasti Dukan</a>
+            </div>
+          </div>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link active">Home</a>
+              </li>
+              <li class="nav__item"><a href="#" class="nav__link">Fashion</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Electronics</a>
+              </li>
+              <li class="nav__item">
+                <a href="#p" class="nav__link">Books</a>
+              </li>
+              <li class="nav__item">
+                <a href="#one" class="nav__link">Home Appliancs</a>
+              </li>
+              <li class="nav__item">
+                <a href="#one" class="nav__link">Todays Deals</a>
+              </li>
+              <li class="nav__item">
+                <a href="#categories" class="nav__link">Categories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <section class="offer_header">
       <div class="offer_box">
@@ -43,10 +97,10 @@
         <img src="images/discount banner.png" alt="" />
       </div>
     </section>
-    <section id="home" class="container">
+    <section  class="container">
       <div class="main_container">
         <div class="heading">
-          <h1>Best Laptop Deals</h1>
+          <h1 id="home">Best Laptop Deals</h1>
         </div>
         <div class="product_container">
           <div class="product_card">
@@ -230,8 +284,8 @@
       </aside>
     </section>
     <section class="bottom">
-      <div id="categories" class="categories">
-        <h1>More Deals For You</h1>
+      <div  class="categories">
+        <h1 id="categories">More Deals For You</h1>
         <div class="categories_section">
           <div class="cat_card">
             <a href="">
@@ -307,14 +361,20 @@
 
 
     <!--!! Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=275503993"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=275503993"></script>
 
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', '275503993');
-</script>
+</script> -->
+
+<!-- ===== IONICONS ===== -->
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+<!--===== MAIN JS =====-->
+<script src="js/navbar.js"></script>
 
   </body>
 </html>
