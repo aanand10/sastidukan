@@ -357,6 +357,7 @@ footer .footer_text p {
     /* margin-top: 10px; */
     /* margin-bottom: 10px; */
     padding: 0;
+    width: 100%;
   }
   .container .main_container {
     display: flex;

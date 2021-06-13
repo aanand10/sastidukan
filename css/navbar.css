@@ -52,10 +52,10 @@ a {
   text-decoration: none;
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .bd-grid {
   max-width: 1024px;
@@ -165,7 +165,8 @@ img {
   color: var(--white-color);
   /* background-color: #1b1b1b; */
   padding: 0;
-  padding-right: 30px;
+  margin-right: 142px;
+  margin-left: -82px;
 }
 
 .nav__profesion {
@@ -188,6 +189,7 @@ img {
 
 .nav__link {
   color: var(--white-color);
+  font-size: 18px;
 }
 
 .nav__social {
