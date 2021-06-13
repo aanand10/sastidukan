@@ -462,8 +462,6 @@ footer .footer_text p {
     height: 125px;
     /* margin: 7px 5px; */
     padding: 0;
-
-    /* display: flex; */
   }
   .bottom .categories .categories_section .cat_card:nth-child(even) {
     top: 90px;
