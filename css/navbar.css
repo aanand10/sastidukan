@@ -116,6 +116,10 @@ a {
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
+  .nav__name {
+    margin-right: 0;
+    margin-left: 10px;
+  }
 }
 
 .nav__content {
@@ -165,8 +169,8 @@ a {
   color: var(--white-color);
   /* background-color: #1b1b1b; */
   padding: 0;
-  margin-right: 142px;
-  margin-left: -82px;
+  margin-right: 20px;
+  /* margin-left: -px; */
 }
 
 .nav__profesion {
@@ -247,6 +251,7 @@ a {
   .nav__profesion {
     display: none;
   }
+
   .nav__perfil {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -281,6 +286,10 @@ a {
   }
   .nav__link:hover {
     background-color: var(--first-color);
+  }
+  .nav__name {
+    margin-right: 142px;
+    margin-left: -82px;
   }
   .active {
     background-color: var(--first-color);

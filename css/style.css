@@ -466,6 +466,10 @@ footer .footer_text p {
   } */
 }
 @media (max-width: 720px) {
+  .nav__name {
+    padding-right: -10px;
+    margin-right: -10px;
+  }
   .offer_header {
     padding: 0;
     margin-top: 4.3rem;
