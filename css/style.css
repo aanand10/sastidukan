@@ -234,7 +234,7 @@ aside .no2 {
 }
 
 .Winter-mansoon-collection {
-  background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+  background-image: linear-gradient(135deg, #3c8ce7 10%, #00eaff 100%);
 }
 .Winter-mansoon-collection .main_container .heading {
   display: flex;
@@ -499,7 +499,7 @@ footer .footer_text p {
     margin-top: 4.3rem;
   }
   .offer_header_2 {
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
   }
   .offer_header .amazon_side_ad {
     display: none;
@@ -520,16 +520,16 @@ footer .footer_text p {
   .container .main_container .product_container {
     margin-bottom: 20px;
   }
+  .container .main_container .product_container .last-item {
+    display: none;
+  }
   .container .main_container .product_container .product_card {
     width: 47%;
     height: auto;
     padding: 0;
     margin: 5px;
   }
-  .container .main_container .product_container .product_card:nth-child(5) {
-    width: 302px;
-    height: 250px;
-  }
+
   .container .main_container .product_card .Product_image {
     height: 150px;
     padding: 7px 10px;
@@ -552,6 +552,8 @@ footer .footer_text p {
   .container .main_container .product_card a button {
     height: 50px;
     font-size: 14px;
+    margin: 10px 10px;
+    padding: 10px 0;
   }
   .container .main_container .product_card a button span img {
     height: 13px;
