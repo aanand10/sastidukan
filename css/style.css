@@ -185,7 +185,8 @@ input[type="checkbox"] {
   margin: 5px 0 0 0;
   font-size: 14px;
   font-weight: 500;
-  overflow: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
   /* text-overflow: clip; */
 }
 .container .main_container .product_card a button {
@@ -492,9 +493,10 @@ footer .footer_text p {
 @media (max-width: 720px) {
   .offer_header {
     padding: 0;
-    margin-top: -1.5rem;
+    margin-top: 4.3rem;
   }
-  .amazon_side_ad {
+
+  .offer_header .amazon_side_ad {
     display: none;
   }
   .container {
