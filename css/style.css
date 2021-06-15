@@ -145,8 +145,8 @@ input[type="checkbox"] {
   /* overflow: hidden; */
 }
 .container .main_container .product_container .product_card {
-  /* height: 300px; */
-  height: auto;
+  height: 300px;
+  /* height: auto; */
   width: 250px;
   background-color: blanchedalmond;
   display: flex;
@@ -158,6 +158,8 @@ input[type="checkbox"] {
   -webkit-backdrop-filter: blur(2px);
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
 }
 .container .main_container .product_container .ad_card {
   overflow: hidden;
@@ -495,7 +497,9 @@ footer .footer_text p {
     padding: 0;
     margin-top: 4.3rem;
   }
-
+  .offer_header_2 {
+    margin-top: 0.5rem;
+  }
   .offer_header .amazon_side_ad {
     display: none;
   }
