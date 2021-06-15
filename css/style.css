@@ -538,16 +538,16 @@ footer .footer_text p {
   }
   .container .main_container .product_card h3 {
     text-align: center;
-    margin: 5px 0 0 0;
+    margin: 0px 0 0 0;
     font-size: 12px;
     font-weight: 400;
     /* overflow: inherit; */
     /* word-wrap: inherit; */
-    width: 95%;
+    width: 154px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    /* text-overflow: clip; */
+    /* text-overflow: clip;*/
   }
   .container .main_container .product_card a button {
     height: 50px;
