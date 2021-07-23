@@ -495,8 +495,8 @@ footer .footer_text p {
   letter-spacing: 1px;
 }
 .footer_text .footer-text-icon {
-  height: 20px;
-  margin: 0 5px;
+  height: 26px;
+  margin: 0 1px;
   display: inline-block;
 }
 @media (max-width: 1000px) {
