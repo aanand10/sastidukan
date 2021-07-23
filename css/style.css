@@ -84,6 +84,7 @@ input[type="checkbox"] {
   height: auto;
   width: 100%;
 }
+
 .container {
   /* border: 1px solid black; */
 
@@ -485,8 +486,18 @@ footer .footer_text {
 
 footer .footer_text p {
   display: block;
-  font-size: 13.5px;
+  font-size: 18.5px;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  letter-spacing: 1px;
+}
+.footer_text .footer-text-icon {
+  height: 20px;
+  margin: 0 5px;
+  display: inline-block;
 }
 @media (max-width: 1000px) {
   /* nav {
