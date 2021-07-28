@@ -133,7 +133,7 @@ input[type="checkbox"] {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 4.3rem;
+  /* margin-top: 4.3rem; */
 }
 .container .main_container .heading {
 }
