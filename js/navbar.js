@@ -1,27 +1,27 @@
-/*===== MENU SHOW Y HIDDEN =====*/ 
-const navMenu = document.getElementById('nav-menu'),
-      toggleMenu = document.getElementById('nav-toggle'),
-      closeMenu = document.getElementById('nav-close')
+/*===== MENU SHOW Y HIDDEN =====*/
+const navMenu = document.getElementById("nav-menu"),
+  toggleMenu = document.getElementById("nav-toggle"),
+  closeMenu = document.getElementById("nav-close");
 
-/*SHOW*/ 
-toggleMenu.addEventListener('click', ()=>{
-    navMenu.classList.toggle('show')
-})
+/*SHOW*/
+toggleMenu.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
+});
 
 /*HIDDEN*/
-closeMenu.addEventListener('click', ()=>{
-    navMenu.classList.remove('show')
-})
+closeMenu.addEventListener("click", () => {
+  navMenu.classList.remove("show");
+});
 
 /*===== ACTIVE AND REMOVE MENU =====*/
-const navLink = document.querySelectorAll('.nav__link');   
+const navLink = document.querySelectorAll(".nav__link");
 
-function linkAction(){
+function linkAction() {
   /*Active link*/
-  navLink.forEach(n => n.classList.remove('active'));
-  this.classList.add('active');
-  
+  navLink.forEach((n) => n.classList.remove("active"));
+  this.classList.add("active");
+
   /*Remove menu mobile*/
-  navMenu.classList.remove('show')
+  navMenu.classList.remove("show");
 }
-navLink.forEach(n => n.addEventListener('click', linkAction));
+navLink.forEach((n) => n.addEventListener("click", linkAction));
